@@ -32,6 +32,7 @@ class MyBox(BoxLayout):
     def textchanged(self, widget, value):
         self.label.text = "Что? " + value + " ?"
 
+
 class MyApp(App):
     def build(self):
         box = MyBox()
